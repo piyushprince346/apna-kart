@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-# Author - Piyush B Prince, Ronit Raj, Modabbir Tarique
+# Author - Piyush B Prince, Ronit Raj, Modabbir Tarique, Sugyan Mishra
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
