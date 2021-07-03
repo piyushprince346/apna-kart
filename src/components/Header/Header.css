@@ -40,7 +40,9 @@
     width: 40px !important;
     height: 1.3em !important;
 }
-
+a .header__optionBasket{
+    color: white;
+}
 .header__optionBasket{
     margin: auto 20px auto 10px;
     text-align: center;
