@@ -6,7 +6,7 @@ import { auth } from './database/firebase';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useEffect } from 'react'
 import { useStateValue } from './contexts/StateProvider';
-
+import Checkout from './components/Checkout/Checkout';
 function App() {
   const [{ user }, dispatch] = useStateValue();
   useEffect(() => {
@@ -37,6 +37,9 @@ function App() {
         <Switch>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/checkout">
+            <Checkout/>
           </Route>
           <Route path="/">
             <Header />
