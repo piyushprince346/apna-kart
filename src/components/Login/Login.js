@@ -36,10 +36,9 @@ function Login() {
     return (
         <div className='login'>
             <Link to='/'>
-                <img alt="login-logo"
-                    className="login__logo"
-                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png'
-                />
+                <div className="login__logo">
+                    ApNaKarT 🛒
+                </div>
             </Link>
 
             <div className='login__container'>
@@ -56,11 +55,11 @@ function Login() {
                 </form>
 
                 <p>
-                    By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
+                    By signing-in you agree to the ApNaKarT 🛒 Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button onClick={register} className='login__registerButton'>Create your Amazon Account</button>
+                <button onClick={register} className='login__registerButton'>Create your ApNaKarT Account</button>
             </div>
         </div>
     )
